@@ -1,0 +1,24 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+.scannen {
+    background-color: #FFC011;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border: 0px;
+    border-radius: 100px;
+    font-size: 30px;
+}
+.scannen:hover {
+    background-color: #dca50f;
+}
+
+.scannen p{
+    display: inline;
+    font-family: "quicksand";
+    font-weight: bold;
+    margin: auto;
+    text-decoration: none;
+}
+
