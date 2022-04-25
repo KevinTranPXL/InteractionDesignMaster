@@ -2,7 +2,7 @@ a {
     text-decoration: none;
     color: white;
 }
-.scannen {
+.scannen, .button {
     background-color: #FFC011;
     padding: 10px 20px 10px 20px;
     color: white;
@@ -10,7 +10,7 @@ a {
     border-radius: 100px;
     font-size: 30px;
 }
-.scannen:hover {
+.scannen:hover, button:hover {
     background-color: #dca50f;
 }
 
@@ -22,3 +22,12 @@ a {
     text-decoration: none;
 }
 
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: "quicksand";
+    font-weight: bold;
+    padding: 24px;
+}
