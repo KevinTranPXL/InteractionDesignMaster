@@ -2,11 +2,12 @@ a {
     text-decoration: none;
 }
 
+/* CSS VOOR SCAN KNOP */
+
+/* CSS VOOR HULP KNOP */
 body {
     font-family: "quicksand";
-    color: #1A8300;
 }
-
 
 .greyBackground {
     background-color: gray;
@@ -26,7 +27,7 @@ body {
 }
 
 .helpButton:hover{
-    background-color: rgb(223, 223, 223);
+    background-color: white;
 }
 
 .helpButton p {
