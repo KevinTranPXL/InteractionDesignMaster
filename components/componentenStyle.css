@@ -1,7 +1,12 @@
 a {
     text-decoration: none;
-    color: white;
 }
+
+body {
+    font-family: "quicksand";
+    color: #1A8300;
+}
+
 .scannen, .button {
     background-color: #FFC011;
     padding: 10px 20px 10px 20px;
@@ -10,6 +15,7 @@ a {
     border-radius: 100px;
     font-size: 30px;
 }
+
 .scannen:hover, button:hover {
     background-color: #dca50f;
 }
@@ -30,4 +36,34 @@ a {
     font-family: "quicksand";
     font-weight: bold;
     padding: 24px;
+}
+
+
+
+.hulp {
+    background-color: gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.helpButton{
+    background-color: white;
+    padding: -10px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 458px;
+    height: 124px;
+}
+
+.helpButton:hover{
+    background-color: rgb(223, 223, 223);
+}
+
+.helpButton p {
+    font-size: 50px;
+    padding-right: 20px ;
+    color: #1A8300;
+    font-weight: bold;
 }
