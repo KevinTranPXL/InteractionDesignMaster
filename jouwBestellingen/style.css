@@ -1,3 +1,31 @@
-*{
-   
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Titan One', cursive;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: #25B900;
+}
+
+.kronkelbox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    margin-top: -30%;
+    /* background-color: palegoldenrod; */
+}
+
+.kronkel {
+    width: 120%;
+
+    overflow: hidden;
 }
