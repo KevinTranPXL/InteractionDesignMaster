@@ -7,40 +7,8 @@ body {
     color: #1A8300;
 }
 
-.scannen, .button {
-    background-color: #FFC011;
-    padding: 10px 20px 10px 20px;
-    color: white;
-    border: 0px;
-    border-radius: 100px;
-    font-size: 30px;
-}
 
-.scannen:hover, button:hover {
-    background-color: #dca50f;
-}
-
-.scannen p{
-    display: inline;
-    font-family: "quicksand";
-    font-weight: bold;
-    margin: auto;
-    text-decoration: none;
-}
-
-.button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-    font-family: "quicksand";
-    font-weight: bold;
-    padding: 24px;
-}
-
-
-
-.hulp {
+.greyBackground {
     background-color: gray;
     padding: 20px;
     border-radius: 10px;
