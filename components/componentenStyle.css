@@ -20,14 +20,13 @@ body {
     padding: -10px;
     border-radius: 100px;
     display: flex;
-    align-items: center;
     justify-content: center;
     width: 458px;
     height: 124px;
 }
 
 .helpButton:hover{
-    background-color: white;
+    background-color: rgb(203, 203, 203);
 }
 
 .helpButton p {
@@ -35,4 +34,10 @@ body {
     padding-right: 20px ;
     color: #1A8300;
     font-weight: bold;
+}
+
+.helpButtonLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
