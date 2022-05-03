@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Titan One', cursive;
+    font-size: 3.75rem;
+    /* color:#1A8300; */
+    font-weight: normal;
+}
+
+
+h4 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.4rem;
+    color: #319A17
+}
+
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: #25B900;
+}
+
+.kronkelbox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    margin-top: -30%;
+    /* background-image: ; */
+    /* background-color: palegoldenrod; */
+}
+
+.kronkel {
+    width: 120%;
+
+    overflow: hidden;
+}
+
+.jouwBestelling-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kronkelbox {
+    z-index: 1;
+    /* background-color: wheat; */
+}
+
+.text-white {
+    color: white;
+    z-index: 2;
+    /* background-color: plum;   */
+}
