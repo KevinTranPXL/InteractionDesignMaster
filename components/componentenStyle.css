@@ -2,19 +2,47 @@ a {
     text-decoration: none;
 }
 
-/* CSS VOOR SCAN KNOP */
-
-/* CSS VOOR HULP KNOP */
 body {
-    font-family: "quicksand";
+    font-family: "Montserrat Alternates";
+    font-size: 45px;
+    font-weight: bold;
 }
 
 .greyBackground {
     background-color: gray;
     padding: 20px;
     border-radius: 10px;
+    margin-top: 30px;
 }
 
+/* CSS VOOR SCAN KNOP */
+.scannen {
+    background-color: #FFC011;
+    width: 600px;
+    height: 135px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.scannenLink {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.scannenLink p {
+    padding-left: 60px;
+    color: white;
+}
+
+.scannenLink svg {
+    padding-left: 40px;
+}
+
+
+
+/* CSS VOOR HULP KNOP */
 .helpButton{
     background-color: white;
     padding: -10px;
@@ -30,14 +58,19 @@ body {
 }
 
 .helpButton p {
-    font-size: 50px;
     padding-right: 20px ;
     color: #1A8300;
-    font-weight: bold;
 }
 
 .helpButtonLink{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* CSS SCAN OPNEIUW */
+.scanOpnieuw {
+    background-color: white;
+    width: 800px;
+    height: 460px;
 }
