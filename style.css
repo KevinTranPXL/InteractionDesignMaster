@@ -176,6 +176,7 @@ svg.active .svg-elem-1 {
     /* margin-right: -100px; */
     margin-right: -10%;
     margin-left: -10%;
+    width: 300px;
     /* background-color: red; */
 }
 
@@ -208,19 +209,18 @@ img#cardIcon {
     padding-bottom: 40px;
     padding-left: 30px;
     padding-right: 30px;
-    /*  */
     margin-right: 20px;
     border-radius: 16px;
+    margin-left: -7px;
     border: solid 4px #DAF8D3;
 }
 
 img#cardIconBot {
     width: 60%;
-    /* padding */
     padding-top: 38px;
     padding-bottom: 38px;
-    padding-left: 42px;
-    padding-right: 32px;
+    padding-left: 40px;
+    padding-right: 30px;
     /*  */
     /* margin-left: 20px; */
     margin-right: 20px;
