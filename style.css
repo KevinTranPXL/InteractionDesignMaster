@@ -216,3 +216,32 @@ img#cardIconBot {
 .textwhite {
     color: white;
 }
+
+/* SAM BUTTON CSS */
+
+.helpButton {
+    background-color: white;
+    padding: 20px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 20%;
+    
+}
+
+.helpButton:hover {
+    background-color: rgb(203, 203, 203);
+}
+
+.helpButton p {
+    padding-right: 20px;
+    color: #1A8300;
+    text-decoration: none;
+}
+
+.helpButtonLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
