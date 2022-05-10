@@ -82,3 +82,18 @@ body {
 .scanOpnieuwLink p {
     color: #319A17;
 }
+
+/* CSS GA VERDER */
+.gaVerder {
+    background-color: #49A931;
+}
+
+.gaVerderLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.gaVerderLink p {
+    color: white;
+}
