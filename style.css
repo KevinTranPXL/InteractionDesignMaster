@@ -41,7 +41,7 @@ p {
 }
 
 #container {
-    margin-top: 7rem;
+    margin-top: 6rem;
     margin-left: 3.1rem;
     margin-right: 3.1rem;
 
@@ -227,7 +227,13 @@ img#cardIconBot {
     justify-content: center;
     width: 30%;
     height: 20%;
-    
+
+}
+
+.helpButtonPosition {
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: purple; */
 }
 
 .helpButton:hover {
@@ -237,6 +243,10 @@ img#cardIconBot {
 .helpButton p {
     padding-right: 20px;
     color: #1A8300;
+    text-decoration: none;
+}
+
+.helpButton a {
     text-decoration: none;
 }
 
