@@ -87,7 +87,10 @@ svg.active .svg-elem-1 {
     width: 100%;
     height: auto;
     /* margin-bottom: 20%; */
-    padding: 40px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 80px;
     border-radius: 25px;
     -webkit-box-shadow: 0px 1px 22px 3px rgba(44, 65, 43, 0.04);
     box-shadow: 0px 1px 22px 3px rgba(44, 65, 43, 0.04);
