@@ -76,6 +76,11 @@ body {
 }
 
 .scanOpnieuwLink {
-    display: block;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.scanOpnieuwLink p {
+    color: #319A17;
 }
