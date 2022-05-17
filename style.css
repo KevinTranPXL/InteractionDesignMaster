@@ -160,13 +160,15 @@ svg.active .svg-elem-1 {
 
 #buttonPressedTop:focus {
     background-color: #EBF7E8;
-
+    transition: all ease-in 0.2s;
 }
 
 #buttonPressedTop:focus .left-icon {
     background-color: #1A8300;
 }
-
+.gg{
+    height: 25px;
+}
 
 #buttonPressedTop:focus img#cardIcon {
     filter:brightness(0) invert(1)
@@ -177,6 +179,10 @@ svg.active .svg-elem-1 {
 }
 #buttonPressedTop:focus .suggested {
     background-color: white;
+}
+
+#buttonPressedTop:focus img#cardIconBot {
+    filter:brightness(0) invert(1)
 }
 
 .paymentchoice {
