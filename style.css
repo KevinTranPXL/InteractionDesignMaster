@@ -294,6 +294,7 @@ img#cardIconBot {
 }
 
 /* SAM BUTTON CSS */
+/* HULP */
 
 .helpButton {
     background-color: white;
@@ -303,7 +304,6 @@ img#cardIconBot {
     justify-content: center;
     width: 30%;
     height: 20%;
-
 }
 
 .helpButtonPosition {
