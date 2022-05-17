@@ -1,3 +1,7 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
 a {
     text-decoration: none;
 }
@@ -43,22 +47,18 @@ body {
 
 
 /* CSS VOOR HULP KNOP */
-.helpButton{
+/* .helpButton{
     background-color: white;
     padding: -10px;
     border-radius: 100px;
-    display: flex;
-    justify-content: center;
+    display: relative;
     width: 458px;
     height: 124px;
-}
-
-.helpButton:hover{
-    background-color: rgb(203, 203, 203);
-}
+} */
 
 .helpButton p {
     padding-right: 20px ;
+    font-size: xx-large;
     color: #1A8300;
 }
 
@@ -66,7 +66,79 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto;
 }
+
+.helpButton {
+    width: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 4em;
+    font-size: 16px;
+    color: white;
+    padding: 0.8em 1.8em;
+    cursor:pointer;
+    user-select:none;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  }
+  
+  .helpButton:hover {
+    transition-duration: 0.1s;
+  }
+  
+  .helpButton:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px 40px white;
+  }
+  
+  .helpButton:active:after {
+    box-shadow: 0 0 0 0 white;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    opacity: 1;
+    transition: 0s;
+  }
+  
+  .helpButton:active {
+    top: 1px;
+  }
+  
+
+/* BETALING ANNULEREN */
+.betalingAnnuleren {
+    border: 4px solid #97CE8A;
+    margin: 50px 0 50px 0;
+    border-radius: 200px;
+    width: 582px;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.betalingAnnulerenButtonLink {
+    color: #1A8300;
+    padding: 0px;
+}
+
+
 
 /* CSS SCAN OPNEIUW */
 .scanOpnieuw {
