@@ -9,12 +9,12 @@ body {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: #18c89b;
+    background: #1A8300;
     position: relative;
     right: 4px;
   }
   .ocrloader p {
-    color: #18c89b;
+    color: #1A8300;
     position: absolute;
     bottom: -30px;
     left: 38%;
@@ -42,9 +42,9 @@ body {
     top: 0;
     width: 85%;
     height: 5px;
-    background-color: #18c89b;
-    box-shadow: 0 0 10px 1px #18c89b,
-                0 0 1px 1px #18c89b;
+    background-color: #1A8300;
+    box-shadow: 0 0 10px 1px #1A8300,
+                0 0 1px 1px #1A8300;
     z-index: 1;
     transform: translateY(95px);
     animation: move 1.7s cubic-bezier(0.15,0.54,0.76,0.74);
@@ -55,7 +55,7 @@ body {
   .ocrloader:after,
   .ocrloader em:after,
   .ocrloader em:before {
-    border-color: #18c89b;
+    border-color: #1A8300;
     content: "";
     position: absolute;
     width: 45px;
