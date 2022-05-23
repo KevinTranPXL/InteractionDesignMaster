@@ -12,13 +12,14 @@ body {
     font-weight: bold;
 }
 
-.greyBackground {
-    background-color: gray;
+.greenBackground {
+    background-color: #25B900;
     padding: 20px;
     border-radius: 10px;
     margin-top: 30px;
 }
 
+/* ---------------------------- */
 
 /* CSS VOOR SCAN KNOP */
 .scannen {
@@ -29,6 +30,7 @@ body {
     display: flex;
     justify-content: flex-start;
     margin: 20px;
+    animation-name: loslaten;
 }
 
 .scannenLink {
@@ -46,7 +48,38 @@ body {
     padding-left: 40px;
 }
 
+#Path_1553 {
+    display: none;
+}
 
+/* ACTIVE STATE */
+
+.scannenLink p:active {
+    padding-left: 60px;
+    color: #FFC011;
+} 
+
+.scannenLink:active #Path_1552{
+    display: none;
+}
+
+.scannenLink:active #Path_1553{
+    display: block;
+}
+
+.scannen:active {
+    background-color: #fff;
+    border: 5px solid #FFC011;
+    animation-name: indrukken;
+    animation-duration: 0.5s;
+}
+
+@keyframes indrukken {
+    from {transform: scale(1);}
+    to {transform: scale(0.9);}
+  }
+
+/* --------------------------------------- */
 
 /* CSS VOOR HULP KNOP */
 /* .helpButton{
