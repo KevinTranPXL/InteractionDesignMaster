@@ -47,7 +47,7 @@ body {
                 0 0 1px 1px #1A8300;
     z-index: 1;
     transform: translateY(95px);
-    animation: move 1.7s cubic-bezier(0.15,0.54,0.76,0.74);
+    animation: move 1.7s cubic-bezier(0.25, 0.1, 0.25, 1);
     animation-iteration-count: infinite;
   }
   
