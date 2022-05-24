@@ -19,7 +19,7 @@ body {
 
 .knoppen {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .button {
@@ -273,7 +273,7 @@ body {
 
 .terugLink svg {
     /* padding-left: 5px; */
-    /* padding-right: 15px; */
+    padding-right: 15px;
     width: 55px;
 }
 
@@ -282,22 +282,8 @@ body {
 } */
 
 /* ACTIVE STATE */
-
-.terugLink p:active {
-    color: #FFC011;
-} 
-
-.terugLink:active #Path_1552{
-    display: none;
-}
-
-.terugLink:active #Path_1553{
-    display: block;
-}
-
 .terug:active {
-    background-color: rgb(238, 238, 238);
-    /* border: 5px solid #FFC011; */
+    background-color: lightgrey;
 }
 
 /* ---------------------------- */
@@ -313,7 +299,7 @@ body {
     background-color: #fff;
     border-radius: 4em;
     border: 3px solid #1A8300;
-    font-size: 20px;
+    font-size: 20px; 
     color: white;
     /* padding: 0.8em 1.8em; */
     padding-top: 5px;
@@ -332,6 +318,11 @@ body {
 .betalingAnnulerenButtonLink {
     color: #1A8300;
     padding: 0px;
+}
+
+/* ACTIVE STATUS */
+.betalingAnnuleren:active {
+    background-color: lightgrey;
 }
 
 /* ------------------------------------- */
