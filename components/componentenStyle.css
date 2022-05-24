@@ -14,14 +14,16 @@ body {
 
 .greenBackground {
     background-color: #25B900;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 30px;
+    padding: 5px 0 5px 0;
 }
 
 .knoppen {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+.button {
+    margin: 10px;
 }
 
 /* ---------------------------- */
@@ -170,16 +172,99 @@ body {
     top: 1px;
 }  
 
-/* BETALING ANNULEREN */
-.betalingAnnuleren {
-    border: 4px solid #97CE8A;
-    margin: 50px 0 50px 0;
-    border-radius: 200px;
-    width: 582px;
-    height: 135px;
+/* CSS VOOR AFREKEN KNOP */
+.scannen {
+    width: 240px;
+    height: 60px;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #FFC011;
+    border-radius: 4em;
+    font-size: 20px;
+    color: white;
+    /* padding: 0.8em 1.8em; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+}
+
+.scannenLink {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.scannenLink p {
+    color: white;
+}
+
+.scannenLink svg {
+    padding-left: 5px;
+    padding-right: 10px;
+    width: 55px;
+}
+
+#Path_1553 {
+    display: none;
+}
+
+/* ACTIVE STATE */
+
+.scannenLink p:active {
+    color: #FFC011;
+} 
+
+.scannenLink:active #Path_1552{
+    display: none;
+}
+
+.scannenLink:active #Path_1553{
+    display: block;
+}
+
+.scannen:active {
+    background-color: rgb(238, 238, 238);
+    /* border: 5px solid #FFC011; */
+}
+
+
+/* ---------------------------- */
+
+/* BETALING ANNULEREN */
+.betalingAnnuleren {
+    width: 240px;
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 4em;
+    border: 3px solid #1A8300;
+    font-size: 20px;
+    color: white;
+    /* padding: 0.8em 1.8em; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
 }
 
 .betalingAnnulerenButtonLink {
