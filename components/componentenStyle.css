@@ -14,23 +14,44 @@ body {
 
 .greenBackground {
     background-color: #25B900;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 30px;
+    padding: 5px 0 5px 0;
+}
+
+.knoppen {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    margin: 10px;
 }
 
 /* ---------------------------- */
 
 /* CSS VOOR SCAN KNOP */
 .scannen {
-    background-color: #FFC011;
-    width: 600px;
-    height: 135px;
-    border-radius: 100px;
+    width: 240px;
+    height: 60px;
+    position: relative;
     display: flex;
-    justify-content: flex-start;
-    margin: 20px;
-    animation-name: loslaten;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFC011;
+    border-radius: 4em;
+    font-size: 20px;
+    color: white;
+    /* padding: 0.8em 1.8em; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
 }
 
 .scannenLink {
@@ -40,12 +61,13 @@ body {
 }
 
 .scannenLink p {
-    padding-left: 60px;
     color: white;
 }
 
 .scannenLink svg {
-    padding-left: 40px;
+    padding-left: 5px;
+    padding-right: 10px;
+    width: 55px;
 }
 
 #Path_1553 {
@@ -55,7 +77,6 @@ body {
 /* ACTIVE STATE */
 
 .scannenLink p:active {
-    padding-left: 60px;
     color: #FFC011;
 } 
 
@@ -68,36 +89,20 @@ body {
 }
 
 .scannen:active {
-    background-color: #fff;
-    border: 5px solid #FFC011;
-    animation-name: indrukken;
-    animation-duration: 0.5s;
+    background-color: rgb(238, 238, 238);
+    /* border: 5px solid #FFC011; */
 }
-
-@keyframes indrukken {
-    from {transform: scale(1);}
-    to {transform: scale(0.9);}
-  }
 
 /* --------------------------------------- */
 
 /* CSS VOOR HULP KNOP */
-/* .helpButton{
-    background-color: white;
-    padding: -10px;
-    border-radius: 100px;
-    display: relative;
-    width: 458px;
-    height: 124px;
-} */
-
 .helpButton p {
-    padding-right: 20px ;
-    font-size: xx-large;
+    padding-right: 20px;
+    font-size: 20px;
     color: #1A8300;
 }
 
-.helpButtonLink{
+.helpButtonLink {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,7 +110,8 @@ body {
 }
 
 .helpButton {
-    width: 400px;
+    width: 240px;
+    height: 60px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -114,58 +120,199 @@ body {
     border-radius: 4em;
     font-size: 16px;
     color: white;
-    padding: 0.8em 1.8em;
-    cursor:pointer;
-    user-select:none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    user-select: none;
     text-decoration: none;
     cursor: pointer;
     transition-duration: 0.4s;
-    -webkit-transition-duration: 0.4s; /* Safari */
-  }
-  
-  .helpButton:hover {
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+}
+
+.helpButtonPosition {
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: purple; */
+}
+
+.helpButton:hover {
     transition-duration: 0.1s;
-  }
-  
-  .helpButton:after {
+}
+
+.helpButton:after {
     content: "";
     display: block;
     position: absolute;
     border-radius: 4em;
     left: 0;
-    top:0;
+    top: 0;
     width: 100%;
     height: 100%;
     opacity: 0;
     transition: all 0.5s;
     box-shadow: 0 0 10px 40px white;
-  }
-  
-  .helpButton:active:after {
+}
+
+.helpButton:active:after {
     box-shadow: 0 0 0 0 white;
     position: absolute;
     border-radius: 4em;
     left: 0;
-    top:0;
+    top: 0;
     opacity: 1;
     transition: 0s;
-  }
-  
-  .helpButton:active {
-    top: 1px;
-  }
-  
+}
 
-/* BETALING ANNULEREN */
-.betalingAnnuleren {
-    border: 4px solid #97CE8A;
-    margin: 50px 0 50px 0;
-    border-radius: 200px;
-    width: 582px;
-    height: 135px;
+.helpButton:active {
+    top: 1px;
+}  
+
+/* ------------------------------------ */
+
+/* CSS VOOR AFREKEN KNOP */
+.afrekenen {
+    width: 240px;
+    height: 60px;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #FFC011;
+    border-radius: 4em;
+    font-size: 20px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+}
+
+.afrekenenLink {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.afrekenenLink p {
+    color: white;
+}
+
+.afrekenenLink svg {
+    padding-left: 5px;
+    padding-right: 15px;
+    width: 55px;
+}
+
+#Path_1553 {
+    display: none;
+}
+
+/* ACTIVE STATE */
+
+.afrekenenLink p:active {
+    color: #FFC011;
+} 
+
+.afrekenenLink:active #Path_1552{
+    display: none;
+}
+
+.afrekenenLink:active #Path_1553{
+    display: block;
+}
+
+.afrekenen:active {
+    background-color: rgb(238, 238, 238);
+    /* border: 5px solid #FFC011; */
+}
+
+/* -------------------------------------- */
+
+/* CSS VOOR GA TERUG KNOP */
+.terug {
+    width: 240px;
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 3px solid #1A8300;
+    border-radius: 4em;
+    font-size: 20px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+}
+
+.terugLink {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.terugLink p {
+    color: #1A8300;
+}
+
+.terugLink svg {
+    /* padding-left: 5px; */
+    padding-right: 15px;
+    width: 55px;
+}
+
+/* #Path_1601 {
+    display: none;
+} */
+
+/* ACTIVE STATE */
+.terug:active {
+    background-color: lightgrey;
+}
+
+/* ---------------------------- */
+
+/* BETALING ANNULEREN */
+.betalingAnnuleren {
+    width: 240px;
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 4em;
+    border: 3px solid #1A8300;
+    font-size: 20px; 
+    color: white;
+    /* padding: 0.8em 1.8em; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
 }
 
 .betalingAnnulerenButtonLink {
@@ -173,7 +320,12 @@ body {
     padding: 0px;
 }
 
+/* ACTIVE STATUS */
+.betalingAnnuleren:active {
+    background-color: lightgrey;
+}
 
+/* ------------------------------------- */
 
 /* CSS SCAN OPNEIUW */
 .scanOpnieuw {
