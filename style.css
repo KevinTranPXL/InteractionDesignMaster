@@ -547,25 +547,6 @@ a {
     font-size: 16px;
 }
 
-.tag {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 22%;
-}
-
-.foodTags h4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #EBFFEA;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 12px;
-    padding-right: 12px;
-    border-radius: 10px;
-    font-size: 16px;
-}
 
 .foodText {
     display: flex;
@@ -584,28 +565,6 @@ a {
 }
 
 
-/* Table poging */
-
-table {
-    width: 100%;
-}
-
-tr {
-    width: 100%;
-
-}
-
-th {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    width: 33%;
-}
-
-td {
-    width: 100%;
-}
 
 .label-list {
     display: flex;
@@ -632,10 +591,8 @@ td {
     justify-content: center;
 }
 
-
-
-.food-tag td {
-    /* width: 10%; */
+/* .food-tag td {
+    /* width: 10%; 
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 1.4rem;
     color: #319A17;
@@ -646,30 +603,9 @@ td {
     padding-left: 12px;
     padding-right: 12px;
     border-radius: 10px;
-}
+} */
 
-th.positie-1-tabel {
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    /* font-weight: 200 !important; */
-}
-
-th.positie-2-tabel {
-    display: flex;
-    justify-content: flex-end !important;
-    /* font-weight: 400; */
-
-}
-
-th.positie-3-tabel {
-    display: flex;
-    /* font-weight: 100 !important; */
-    font-weight: lighter;
-    justify-content: center;
-}
-
-.food-inhoud{
+.food-inhoud {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -683,29 +619,120 @@ th.positie-3-tabel {
     margin-top: 30px;
 }
 
-/* .softLine {
-    height: 6px;
-    background-color: red;
-    width: 100%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-} */
+.foodTotaal {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+}
 
-/* .table-tag td {
+.foodTotaal p {
+    font-family: 'Montserrat alternatives', sans-serif;
+    font-size: 26px;
+    color: #1A8300;
+}
+
+.foodTotaal h1 {
+    font-size: px;
+}
+
+
+.bestelling-inhoud-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.linker-bestelling-inhoud h1,
+.midden-bestelling-inhoud h1,
+.rechter-bestelling-inhoud h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.linker-bestelling-inhoud .tag,
+.midden-bestelling-inhoud .tag,
+.rechter-bestelling-inhoud .tag {
+    margin-bottom: 15px;
+}
+
+.white {
+    color: white;
+    back-groundcolor: white;
+}
+
+/* Linker deel */
+
+.linker-bestelling-inhoud {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.tag {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    width: 100%;
+}
+
+.tag h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: #EBFFEA; */
     padding-top: 8px;
     padding-bottom: 8px;
-    padding-left: 12px;
+    /* padding-left: 12px; */
     padding-right: 12px;
     border-radius: 10px;
     font-size: 16px;
+}
+
+#orangeTag {}
+ 
+#orangeTag h4 {
+    background-color: #FFF9EA;
+    color: #B96900;
+}
+
+#greenTag {}
+
+#greenTag h4 {
     background-color: #EBFFEA;
+    color: #25B900;
+}
 
-} */
+/* Einde linkerdeel */
+/* Start linkerdeel */
 
-/* 
-.table-bestelling{
-    
-} */
+.midden-bestelling-inhoud {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.rechter-bestelling-inhoud {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.softLine {
+    height: 6px;
+    background-color: black;
+    opacity: 0.15;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
