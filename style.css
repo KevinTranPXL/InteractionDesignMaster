@@ -237,7 +237,7 @@ svg.active .svg-elem-1 {
 
 .right-text-item {
     width: 100%;
-    height: calc(175px/3) %;
+    height: calc(175px/3);
 }
 
 .snelste-optie {
@@ -430,4 +430,35 @@ a {
 .gaVerderLink p {
     color: white;
     font-size: 40px;
+}
+
+.animatievierkant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100%;
+}
+.animatievierkant img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 20%;
+}
+
+.witvierkant2 {
+    margin-top: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+    border-radius: 25px;
+
 }
