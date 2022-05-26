@@ -429,7 +429,6 @@ a {
     font-size: 40px;
 }
 
-<<<<<<< HEAD
 .animatievierkant{
     display: flex;
     justify-content: center;
@@ -448,7 +447,7 @@ a {
 
 .witvierkant2 {
     margin-top: 44px;
-=======
+}
 
 .helpButton p {
     padding-right: 20px;
@@ -569,12 +568,10 @@ a {
 
 
 .foodText {
->>>>>>> 5df8de3fe5a1d0ed0f1c2df270dbb0238ce6e036
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-<<<<<<< HEAD
     height: auto;
     padding-top: 40px;
     padding-left: 40px;
@@ -582,7 +579,6 @@ a {
     padding-bottom: 80px;
     border-radius: 25px;
 
-=======
     font-size: 16px;
 }
 
@@ -691,7 +687,7 @@ a {
 
 .white {
     color: white;
-    back-groundcolor: white;
+    background-color: white;
 }
 
 /* Linker deel */
@@ -765,5 +761,4 @@ a {
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 15px;
->>>>>>> 5df8de3fe5a1d0ed0f1c2df270dbb0238ce6e036
 }
