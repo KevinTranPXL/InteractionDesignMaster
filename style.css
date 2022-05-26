@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Fonts */
 h1 {
     font-family: 'Titan One', sans-serif;
     font-size: 3.75rem;
@@ -97,7 +98,7 @@ svg.active .svg-elem-1 {
 
 .foodorder {
     width: 100%;
-    background-color: rgb(196, 190, 192);
+    /* background-color: rgb(196, 190, 192); */
     height: 160px;
     margin-bottom: 20px;
 }
@@ -417,10 +418,6 @@ a {
     font-size: 40px;
 }
 
-.gaVerder {
-    /* background-color: #49A931; */
-}
-
 .gaVerderLink {
     display: flex;
     flex-direction: column;
@@ -431,3 +428,284 @@ a {
     color: white;
     font-size: 40px;
 }
+
+
+.helpButton p {
+    padding-right: 20px;
+    font-size: 20px;
+    color: #1A8300;
+}
+
+.helpButtonLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.helpButton {
+    width: 240px;
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 4em;
+    font-size: 16px;
+    color: white;
+    /* padding: 0.8em 1.8em; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+}
+
+.helpButtonPosition {
+    display: flex;
+    justify-content: flex-end;
+    /* width: 100%; */
+    /* background-color: purple; */
+}
+
+.helpButton:hover {
+    transition-duration: 0.1s;
+}
+
+.helpButton:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px 40px white;
+}
+
+.helpButton:active:after {
+    box-shadow: 0 0 0 0 white;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    transition: 0s;
+}
+
+.helpButton:active {
+    top: 1px;
+}
+
+
+
+/* Bestelling Scherm */
+
+.foodorder {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+/* Top section */
+.foodTitels {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -50px; */
+    font-size: 20px;
+    width: 100%;
+}
+
+.foodTitels h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -50px; */
+    width: 33%;
+    font-size: 20px;
+}
+
+/* Food tags */
+
+.foodTags {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    font-size: 16px;
+}
+
+.tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22%;
+}
+
+.foodTags h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBFFEA;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.foodText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 16px;
+}
+
+.foodText p {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+    color: #319A17;
+    /* font-weight: 200; */
+}
+
+
+/* Table poging */
+
+table {
+    width: 100%;
+}
+
+tr {
+    width: 100%;
+
+}
+
+th {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    width: 33%;
+}
+
+td {
+    width: 100%;
+}
+
+.label-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-family: 'Titan One', sans-serif;
+    font-size: 22px;
+    color: #1A8300;
+    font-weight: 100;
+}
+
+#label-list-productnaam {
+    display: flex;
+    justify-content: center;
+}
+
+#label-list-aantal {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#label-list-prijs {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.food-tag td {
+    /* width: 10%; */
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.4rem;
+    color: #319A17;
+    font-weight: 200;
+    background-color: #EBFFEA;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 10px;
+}
+
+th.positie-1-tabel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    /* font-weight: 200 !important; */
+}
+
+th.positie-2-tabel {
+    display: flex;
+    justify-content: flex-end !important;
+    /* font-weight: 400; */
+
+}
+
+th.positie-3-tabel {
+    display: flex;
+    /* font-weight: 100 !important; */
+    font-weight: lighter;
+    justify-content: center;
+}
+
+.food-inhoud{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-family: 'Montserrat alternatives', sans-serif;
+    font-size: 22px;
+    color: #1A8300;
+    /* font-weight: 100; */
+    border-bottom: 5px solid #E9E8E8;
+    border-radius: 300;
+    padding-bottom: 40px;
+    margin-top: 30px;
+}
+
+/* .softLine {
+    height: 6px;
+    background-color: red;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+} */
+
+/* .table-tag td {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #EBFFEA;
+
+} */
+
+/* 
+.table-bestelling{
+    
+} */
