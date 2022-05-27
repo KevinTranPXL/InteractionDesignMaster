@@ -982,10 +982,12 @@
      width: 100%;
  }
 
- .betaling-voltooid-container p {
+ #instructies {
      display: flex;
      justify-content: center;
      margin-top: 40px;
-     margin-bottom: 40px;
+     margin-bottom: 80px;
+     font-weight: 500;
+     font-size: larger;
+     color: #4F7A44;
  }
-
