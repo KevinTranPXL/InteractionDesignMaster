@@ -1,0 +1,24 @@
+/* Fonts */
+h1 {
+    font-family: 'Titan One', sans-serif;
+    font-size: 3.75rem;
+    color: #1A8300;
+    font-weight: normal;
+
+}
+
+h3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.8rem;
+    color: #319A17
+}
+
+h4 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.4rem;
+    color: #319A17
+}
+
+p {
+    font-family: 'Montserrat Alternates', sans-serif;
+}

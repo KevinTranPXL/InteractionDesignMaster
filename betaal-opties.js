@@ -25,7 +25,7 @@ function URLChange(answer) {
     console.log("URL CHANGE NAAR PINGPING");
   } else if (answer == 1) {
     let groeneButton = (document.querySelector(".gaVerderLink").href =
-      "betaling-qrecode.html");
+      "betaling-qrcode.html");
     console.log("URL CHANGE NAAR BANKKAART");
   }
 }
