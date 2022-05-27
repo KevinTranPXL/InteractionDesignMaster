@@ -6,15 +6,15 @@ document.getElementById("buttonPressedBot").addEventListener("click", bank);
 function pingping() {
   let answer = 0;
   console.log("pingping is ingedrukt");
+  document.getElementById("VERANDER").style.backgroundColor = "#49A931";
   URLChange(answer);
-  //   return answer;
 }
 
 function bank() {
   let answer = 1;
   console.log("Bankkaart is ingedrukt");
+  document.getElementById("VERANDER").style.backgroundColor = "#49A931";
   URLChange(answer);
-  //   return answer;
 }
 
 function URLChange(answer) {
@@ -22,14 +22,11 @@ function URLChange(answer) {
     let groeneButton = (document.querySelector(".gaVerderLink").href =
       "betaling.html");
 
-    // groeneButton = "https://www.epicgames.com/fortnite/en-US/home";
-    // let textNode = document.createTextNode(
-    //   "https://www.epicgames.com/fortnite/en-US/home"
-    // );
-    // groeneButton.appendChild(textNode);
     console.log("URL CHANGE NAAR PINGPING");
   } else if (answer == 1) {
-    document.querySelector("gaVerderLink");
+    let groeneButton = (document.querySelector(".gaVerderLink").href =
+      "betaling-qrecode.html");
     console.log("URL CHANGE NAAR BANKKAART");
   }
 }
+
