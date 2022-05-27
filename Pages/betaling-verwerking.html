@@ -4,14 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Betaling verwerken</title>
+    <title>Scannen</title>
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body style="background-color: #f2f9f1">
     <div class="scannen-container" id="container">
       <div class="bestelling-scannen">
         <h1>Even geduld</h1>
-        <p class="margin50y">Wij scannen jouw bestelling</p>
+        <!-- <div class="margin40y"></div> -->
+        <p class="margin50y">Uw betaling wordt verwerkt.</p>
+        <!-- <div class="margin40y"></div> -->
         <div id="loading-balls-scan">
           <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
           <lottie-player
@@ -23,8 +25,13 @@
             autoplay
           ></lottie-player>
         </div>
+        <div class="betalingAnnuleren button">
+          <a href="betaling.html" class="betalingAnnulerenButtonLink">
+            <p>Betaling annuleren</p>
+          </a>
+        </div>
       </div>
     </div>
   </body>
-  <script src="./redirect.js"></script>
+  <!-- <script src="./redirect.js"></script> -->
 </html>

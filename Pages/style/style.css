@@ -36,6 +36,11 @@
      margin-left: 20px;
  }
 
+ .margin50y {
+     margin-top: 30px;
+     margin-bottom: 20px;
+ }
+
  /* Startpagina */
 
  .TitelStart {
@@ -805,4 +810,42 @@
 
  #loading-balls-scan {
      margin-top: -100px;
+ }
+
+ /* Betaling verwerking */
+
+ .betalingAnnuleren {
+     width: 240px;
+     height: 60px;
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* background-color: #fff; */
+     border-radius: 4em;
+     border: 3px solid #1A8300;
+     font-size: 20px;
+     color: white;
+     /* padding: 0.8em 1.8em; */
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left: 5px;
+     padding-right: 5px;
+     cursor: pointer;
+     user-select: none;
+     text-decoration: none;
+     cursor: pointer;
+     transition-duration: 0.4s;
+     -webkit-transition-duration: 0.4s;
+     /* Safari */
+ }
+
+ .betalingAnnulerenButtonLink {
+     color: #1A8300;
+     padding: 0px;
+ }
+
+ /* ACTIVE STATUS */
+ .betalingAnnuleren:active {
+     background-color: lightgrey;
  }
