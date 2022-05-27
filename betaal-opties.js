@@ -19,7 +19,7 @@ function bank() {
 
 function URLChange(answer) {
   if (answer == 0) {
-    let groeneButton = document.querySelector(".gaVerderLink").href = "https://www.epicgames.com/fortnite/en-US/home";
+    let groeneButton = document.querySelector(".gaVerderLink").href = "betaling.html";
 
     // groeneButton = "https://www.epicgames.com/fortnite/en-US/home";
     // let textNode = document.createTextNode(
