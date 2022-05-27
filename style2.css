@@ -869,10 +869,17 @@
      display: flex;
      align-items: center;
      justify-content: center;
-     /* margin-top: 30vh; */
+     margin-top: 30vh;
      width: 100%;
  }
 
+ .betaling-qrcode-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
  /* CSS VOOR SCAN KNOP */
 
  .buttonCenter {
