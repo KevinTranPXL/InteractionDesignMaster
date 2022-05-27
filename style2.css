@@ -161,6 +161,7 @@ svg.active .svg-elem-1 {
     align-items: center;
     width: 50%;
     border-radius: 0 40px 0 0;
+    background-color: #49A931;
 }
 
 .rechterbutton-betaling{
@@ -792,7 +793,7 @@ a {
 
 /* ONDERSTE KNOPPEN ACTIVE STATE */
 .rechterbutton:active {
-    background-color: #1A8300;
+    background-color: #49A931;
 }
 
 .linkerbutton:active {
@@ -868,12 +869,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    margin-top: 30vh;
     width: 100%;
-}
-
-.betaling-voltooid-container{
-       
 }
 
 /* CSS VOOR SCAN KNOP */
@@ -883,6 +880,11 @@ a {
    justify-content: center;
    margin-top: 9vh;
 }
+.buttonCenterBetaling {
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+ }
 
 .scannen {
    width: 240px;
@@ -952,7 +954,7 @@ a {
    display: flex;
    flex-direction: row;
    justify-content: center;
-   margin-top: 5vh;
+   margin-top: 9vh;
 }
 
 .arrow1 {
@@ -965,3 +967,4 @@ a {
 .arrow3{
    margin-right: 70px;
 }
+
