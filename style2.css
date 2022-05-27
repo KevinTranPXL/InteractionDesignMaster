@@ -163,6 +163,11 @@ svg.active .svg-elem-1 {
     border-radius: 0 40px 0 0;
 }
 
+.rechterbutton-betaling{
+     background-color: gray !important;
+}
+
+
 /* Betaalmethodes */
 
 #buttonPressedTop {
