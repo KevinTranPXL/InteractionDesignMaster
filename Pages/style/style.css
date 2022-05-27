@@ -72,6 +72,13 @@
      width: 100%;
  }
 
+ .curlyFooter2 {
+    position: fixed;
+    left: 0;
+    bottom: 2px;
+    width: 100%;
+}
+
  /* Bestelpagina */
 
  .curlyFooterTop {
@@ -861,5 +868,100 @@
  }
 
  .betaling-voltooid-container{
+<<<<<<< HEAD
 
  }image.png
+=======
+        
+ }
+
+/* CSS VOOR SCAN KNOP */
+
+.buttonCenter {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.scannen {
+    width: 240px;
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFC011;
+    border-radius: 4em;
+    font-size: 20px;
+    color: white;
+    /* padding: 0.8em 1.8em; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+}
+
+.scannenLink {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.scannenLink p {
+    color: white;
+}
+
+.scannenLink svg {
+    padding-left: 5px;
+    padding-right: 10px;
+    width: 55px;
+}
+
+#Path_1553 {
+    display: none;
+}
+
+/* ACTIVE STATE */
+
+.scannenLink p:active {
+    color: #FFC011;
+} 
+
+.scannenLink:active #Path_1552{
+    display: none;
+}
+
+.scannenLink:active #Path_1553{
+    display: block;
+}
+
+.scannen:active {
+    background-color: rgb(238, 238, 238);
+    /* border: 5px solid #FFC011; */
+} 
+
+.boxRondArrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 85px;
+}
+
+.arrow1 {
+    margin-left: 70px;
+}
+.arrow2 {
+    margin-left: -70px;
+    margin-right: -70px;
+}
+.arrow3{
+    margin-right: 70px;
+}
+>>>>>>> 42123766233e7401302302dd7891b066d58ee8b2
