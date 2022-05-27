@@ -72,6 +72,13 @@
      width: 100%;
  }
 
+ .curlyFooter2 {
+    position: fixed;
+    left: 0;
+    bottom: 2px;
+    width: 100%;
+}
+
  /* Bestelpagina */
 
  .curlyFooterTop {
@@ -869,7 +876,7 @@
 .buttonCenter {
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 .scannen {
@@ -940,7 +947,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 85px;
 }
 
 .arrow1 {
