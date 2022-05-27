@@ -574,7 +574,6 @@
      font-size: 16px;
  }
 
-
  .foodText {
      display: flex;
      justify-content: center;
@@ -597,8 +596,6 @@
      color: #319A17;
      /* font-weight: 200; */
  }
-
-
 
  .label-list {
      display: flex;
@@ -672,7 +669,6 @@
      font-size: px;
  }
 
-
  .bestelling-inhoud-container {
      display: flex;
      flex-wrap: nowrap;
@@ -681,7 +677,6 @@
      justify-content: center;
      align-items: flex-start;
  }
-
 
  .linker-bestelling-inhoud h1,
  .midden-bestelling-inhoud h1,
@@ -743,14 +738,10 @@
      font-size: 16px;
  }
 
- #orangeTag {}
-
  #orangeTag h4 {
      background-color: #FFF9EA;
      color: #B96900;
  }
-
- #greenTag {}
 
  #greenTag h4 {
      background-color: #EBFFEA;
