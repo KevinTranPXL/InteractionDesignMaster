@@ -20,5 +20,21 @@ h4 {
 }
 
 p {
+    font-weight: 500;
+    color: #319A17;
     font-family: 'Montserrat Alternates', sans-serif;
 }
+
+/*  COPY EN PASTE VANAF HIER */
+
+ .betaling-voltooid-container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 100%;
+ }
+
+ .betaling-voltooid-container p{
+    display: flex;
+    justify-content: center;
+ }
