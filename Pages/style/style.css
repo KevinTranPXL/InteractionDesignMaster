@@ -686,7 +686,7 @@
  .midden-bestelling-inhoud p,
  .rechter-bestelling-inhoud p {
      font-family: 'Montserrat Alternates', sans-serif;
-     font-size:20px;
+     font-size: 20px;
      color: #319A17;
      font-weight: 500;
      /* margin-left: 20px; */
@@ -777,14 +777,15 @@
  .rechterbutton:active {
      background-color: #1A8300;
  }
+
  .linkerbutton:active {
-    background-color: rgb(230, 230, 230);
+     background-color: rgb(230, 230, 230);
  }
 
 
  /* Scannen scherm */
 
- .bestelling-scannen{
+ .bestelling-scannen {
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -793,6 +794,15 @@
      width: 100%;
  }
 
- .scannen-container{
-    height: 80vh;
+ .bestelling-scannen p {
+     color: #1A8300;
+     font-weight: 500;
+ }
+
+ .scannen-container {
+     height: 80vh;
+ }
+
+ #loading-balls-scan {
+     margin-top: -100px;
  }
