@@ -780,3 +780,19 @@
  .linkerbutton:active {
     background-color: rgb(230, 230, 230);
  }
+
+
+ /* Scannen scherm */
+
+ .bestelling-scannen{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+     width: 100%;
+ }
+
+ .scannen-container{
+    height: 80vh;
+ }
