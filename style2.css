@@ -943,7 +943,7 @@ a {
    /* border: 5px solid #FFC011; */
 } 
 
-.boxRondArrow {
+.boxRondAnimatie {
    display: flex;
    flex-direction: row;
    justify-content: center;
