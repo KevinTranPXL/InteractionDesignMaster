@@ -658,6 +658,7 @@
 
  .foodTotaal h1 {
      font-size: px;
+     font-family: 'Montserrat alternatives', sans-serif;
  }
 
  .bestelling-inhoud-container {
@@ -672,7 +673,7 @@
  .linker-bestelling-inhoud h1,
  .midden-bestelling-inhoud h1,
  .rechter-bestelling-inhoud h1 {
-     font-size: 23;
+     font-size: 23px;
      margin-bottom: 30px;
      /* margin-left: 20px; */
  }
