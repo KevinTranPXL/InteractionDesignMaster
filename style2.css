@@ -178,14 +178,14 @@
      border: none;
  }
 
- #buttonPressedTop:focus {
+ /* #buttonPressedTop:focus {
      background-color: #EBF7E8;
      transition: all ease-in 0.2s;
- }
+ } */
 
- #buttonPressedTop:focus .left-icon {
+ /* #buttonPressedTop:focus .left-icon {
      background-color: #1A8300;
- }
+ } */
 
  #buttonPressedBot {
      width: 100%;
@@ -194,6 +194,7 @@
      border: none;
  }
 
+ /*
  #buttonPressedBot:focus {
      background-color: #EBF7E8;
      transition: all ease-in 0.2s;
@@ -202,14 +203,14 @@
  #buttonPressedBot:focus .left-icon {
      background-color: #1A8300;
  }
-
+*/
 
 
  .gg {
      height: 25px;
  }
 
- #buttonPressedTop:focus img#cardIcon {
+ /* #buttonPressedTop:focus img#cardIcon {
      filter: brightness(0) invert(1)
  }
 
@@ -223,7 +224,7 @@
 
  #buttonPressedBot:focus img#cardIconBot {
      filter: brightness(0) invert(1)
- }
+ } */
 
  .paymentchoice {
      padding-top: 5%;
