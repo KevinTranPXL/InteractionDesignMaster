@@ -673,7 +673,7 @@
  .linker-bestelling-inhoud h1,
  .midden-bestelling-inhoud h1,
  .rechter-bestelling-inhoud h1 {
-     font-size: 23px;
+     font-size: 23px !important;
      margin-bottom: 30px;
      /* margin-left: 20px; */
  }
