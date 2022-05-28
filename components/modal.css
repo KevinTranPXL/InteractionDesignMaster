@@ -1,0 +1,135 @@
+/* defaults */
+/* =============================================== */
+
+
+
+/* modal */
+/* =============================================== */
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+  background: hsla(0, 0%, 40%, .6);
+}
+
+/* using :target */
+.modal-container:target {
+  display: flex;
+}
+
+.modal {
+  width: 70rem;
+  padding: 4rem 2rem;
+  border-radius: 2.2rem;
+  background-color: #fff;
+  box-shadow: .4rem .4rem 2.4rem .2rem hsla(240, 7%, 8%, 0.3);
+  position: relative;
+  overflow: hidden;
+
+ 
+  animation: modal-animatie 0.2s cubic-bezier(0.5, 0, 0.75, 0) 0s 1 normal forwards;
+
+}
+
+@keyframes modal-animatie {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.modal__details {
+
+  margin-bottom: 4rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+
+
+}
+
+.modal__title {
+    font-family: 'Titan One', sans-serif;
+    font-size: 4rem;
+    color: #1A8300;
+    font-weight: normal;
+    
+}
+
+.modal__description {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  color: #1A8300;
+  font-weight: 500;
+}
+
+
+
+.modal_buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.modal__btn {
+  
+padding: 40px;
+  background: transparent;
+  font-size: 1.4rem;
+  font-family: inherit;
+  letter-spacing: .2rem;
+
+  transition: .2s;
+  cursor: pointer;
+    border-style: none;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  color: white;
+  background-color: #25B900;
+  font-weight: 500;
+  border-radius: 500px;
+}
+
+.modal__btn:active{
+    background-color: #186805;
+    transform: translateY(-.2rem);
+}
+
+.modal__btn:focus{
+    outline: 0 ! important;
+}
+
+
+.modal-annuleer{
+    font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  color: #1A8300;
+  font-weight: 600;
+  outline: none;
+}
+
+.link-2:active{
+    color: #88cf76;
+}
+
+
+
+
+
+

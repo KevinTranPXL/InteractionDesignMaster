@@ -309,11 +309,7 @@
  /* SAM BUTTON CSS */
  /* HULP */
 
- .helpButton p {
-     padding-right: 20px;
-     font-size: 20px;
-     color: #1A8300;
- }
+ 
 
  .helpButtonLink {
      display: flex;
@@ -323,21 +319,16 @@
  }
 
  .helpButton {
-     width: 240px;
-     height: 60px;
      position: relative;
      display: flex;
      justify-content: center;
      align-items: center;
      background-color: white;
      border-radius: 4em;
-     font-size: 16px;
-     color: white;
-     /* padding: 0.8em 1.8em; */
-     padding-top: 5px;
-     padding-bottom: 5px;
-     padding-left: 5px;
-     padding-right: 5px;
+     font-family: 'Montserrat Alternates', sans-serif;
+     font-size: 4rem;
+     font-weight: 700;
+     color: #1A8300 !important;
      cursor: pointer;
      user-select: none;
      text-decoration: none;
@@ -345,6 +336,21 @@
      transition-duration: 0.4s;
      -webkit-transition-duration: 0.4s;
      /* Safari */
+
+     width: auto;
+     height: auto;
+     padding-left: 2rem;
+     padding-right: 2rem;
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+     font-size: 22px;
+ }
+
+ .helpButton a{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column-reverse;
  }
 
  .helpButtonPosition {
@@ -355,6 +361,10 @@
 
  .helpButton:hover {
      transition-duration: 0.1s;
+ }
+
+ .information-svg{
+     margin-left: 1rem;
  }
 
  .helpButton:after {
@@ -471,12 +481,6 @@
      margin-top: 44px;
  }
 
- .helpButton p {
-     padding-right: 20px;
-     font-size: 20px;
-     color: #1A8300;
- }
-
  .helpButtonLink {
      display: flex;
      align-items: center;
@@ -484,30 +488,7 @@
      margin: auto;
  }
 
- .helpButton {
-     width: 240px;
-     height: 60px;
-     position: relative;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     background-color: white;
-     border-radius: 4em;
-     font-size: 16px;
-     color: white;
-     /* padding: 0.8em 1.8em; */
-     padding-top: 5px;
-     padding-bottom: 5px;
-     padding-left: 5px;
-     padding-right: 5px;
-     cursor: pointer;
-     user-select: none;
-     text-decoration: none;
-     cursor: pointer;
-     transition-duration: 0.4s;
-     -webkit-transition-duration: 0.4s;
-     /* Safari */
- }
+ 
 
  .helpButtonPosition {
      display: flex;
@@ -670,13 +651,9 @@
      flex-direction: row;
      justify-content: flex-end;
      align-items: baseline;
- }
-
- .foodTotaal p {
-     font-family: 'Montserrat alternatives', sans-serif;
      font-size: 26px;
      color: #1A8300;
-     margin-right: 20px;
+     margin-right: 60px;
  }
 
  .foodTotaal h1 {
@@ -695,7 +672,7 @@
  .linker-bestelling-inhoud h1,
  .midden-bestelling-inhoud h1,
  .rechter-bestelling-inhoud h1 {
-     font-size: 24px;
+     font-size: 23;
      margin-bottom: 30px;
      /* margin-left: 20px; */
  }
@@ -704,7 +681,7 @@
  .midden-bestelling-inhoud p,
  .rechter-bestelling-inhoud p {
      font-family: 'Montserrat Alternates', sans-serif;
-     font-size: 20px;
+     font-size: 23px;
      color: #319A17;
      font-weight: 500;
      /* margin-left: 20px; */
@@ -999,3 +976,134 @@
      color: #4F7A44;
  }
 
+<<<<<<< HEAD
+=======
+
+ 
+/* modal */
+/* =============================================== */
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  
+    display: none;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100%;
+    height: 100%;
+    background: hsla(0, 0%, 40%, .6);
+  }
+  
+  /* using :target */
+  .modal-container:target {
+    display: flex;
+  }
+  
+  .modal {
+    width: 70rem;
+    padding: 4rem 2rem;
+    border-radius: 2.2rem;
+    background-color: #fff;
+    box-shadow: .4rem .4rem 2.4rem .2rem hsla(240, 7%, 8%, 0.3);
+    position: relative;
+    overflow: hidden;
+  
+   
+    animation: modal-animatie 0.2s cubic-bezier(0.5, 0, 0.75, 0) 0s 1 normal forwards;
+  
+  }
+  
+  @keyframes modal-animatie {
+      0% {
+          transform: scale(0);
+      }
+  
+      100% {
+          transform: scale(1);
+      }
+  }
+  
+  .modal__details {
+  
+    margin-bottom: 4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  
+  
+  }
+  
+  .modal__title {
+      font-family: 'Titan One', sans-serif;
+      font-size: 4rem;
+      color: #1A8300;
+      font-weight: normal;
+      
+  }
+  
+  .modal__description {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: #1A8300;
+    font-weight: 500;
+  }
+  
+  
+  
+  .modal_buttons{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+  
+  .modal__btn {
+    
+  padding: 40px;
+    background: transparent;
+    font-size: 1.4rem;
+    font-family: inherit;
+    letter-spacing: .2rem;
+  
+    transition: .2s;
+    cursor: pointer;
+      border-style: none;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: white;
+    background-color: #25B900;
+    font-weight: 500;
+    border-radius: 500px;
+  }
+  
+  .modal__btn:active{
+      background-color: #186805;
+      transform: translateY(-.2rem);
+  }
+  
+  .modal__btn:focus{
+      outline: 0 ! important;
+  }
+  
+  
+  .modal-annuleer{
+      font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: #1A8300;
+    font-weight: 600;
+    outline: none;
+  }
+  
+  .modal-annuleer:active{
+      color: #25B900;
+  }
+  
+  
+>>>>>>> aebd8ac7e1c456a65a0012c6618f555bb4b71204
