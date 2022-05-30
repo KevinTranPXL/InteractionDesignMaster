@@ -463,8 +463,12 @@
  }
 
  .gaVerderLink p {
-     color: #B8B8B8;
+     color: white;
      font-size: 36px;
+ }
+
+ #gaVerderTekst {
+     color: #B8B8B8;
  }
 
  .animatievierkant {
