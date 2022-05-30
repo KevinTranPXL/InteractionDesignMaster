@@ -1,5 +1,5 @@
-// function redirect() {
-//   window.location.replace("overzicht-bestelling.html");
-// } 
+function redirect() {
+  window.location.replace("overzicht-bestelling.html");
+} 
 
-// setTimeout(redirect, 2000)
+setTimeout(redirect, 2000)
