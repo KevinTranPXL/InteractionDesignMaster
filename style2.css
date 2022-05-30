@@ -61,10 +61,10 @@
  }
 
  .container {
-    margin-top: 6rem;
-    margin-left: 3.1rem;
-    margin-right: 3.1rem;
-}
+     margin-top: 6rem;
+     margin-left: 3.1rem;
+     margin-right: 3.1rem;
+ }
 
  .boogGroen {
      width: 100%;
@@ -316,7 +316,7 @@
  /* SAM BUTTON CSS */
  /* HULP */
 
- 
+
 
  .helpButtonLink {
      display: flex;
@@ -353,7 +353,7 @@
      font-size: 22px;
  }
 
- .helpButton a{
+ .helpButton a {
      display: flex;
      justify-content: center;
      align-items: center;
@@ -370,7 +370,7 @@
      transition-duration: 0.1s;
  }
 
- .information-svg{
+ .information-svg {
      margin-left: 1rem;
  }
 
@@ -495,7 +495,7 @@
      margin: auto;
  }
 
- 
+
 
  .helpButtonPosition {
      display: flex;
@@ -798,8 +798,11 @@
  }
 
  .bestelling-scannen p {
+     margin-top: 30px;
+     margin-bottom: 20px;
      color: #1A8300;
      font-weight: 500;
+     font-family: 'Montserrat Alternates', sans-serif !important;
  }
 
  .scannen-container {
@@ -859,12 +862,13 @@
  }
 
  .betaling-qrcode-container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-}
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     width: 100%;
+ }
+
  /* CSS VOOR SCAN KNOP */
 
  .buttonCenter {
