@@ -1021,7 +1021,6 @@
     position: relative;
     overflow: hidden;
   
-   
     animation: modal-animatie 0.2s cubic-bezier(0.5, 0, 0.75, 0) 0s 1 normal forwards;
   
   }
