@@ -1102,6 +1102,27 @@
   
   .modal-annuleer:active{
       color: #25B900;
+
   }
-  
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+transition-fade{
+    opacity: 1;
+    transition: 500ms;
+}
+
+html.is-animating .transition-fade{
+    opacity: 0;
+}
+
