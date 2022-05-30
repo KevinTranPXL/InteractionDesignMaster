@@ -1118,10 +1118,13 @@
   }
 
 
+  #stylingScannenH1 {
+    font-family: 'Titan One', sans-serif !important;
+  }
 
-
-
-
+  #stylingScannenP {
+    font-family: 'Montserrat Alternates', sans-serif !important;
+  }
 
 
 
