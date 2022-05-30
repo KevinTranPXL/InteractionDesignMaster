@@ -32,8 +32,14 @@ function pingping() {
   document.getElementById("buttonPressedBot").style.backgroundColor = "#FFFFFF";
   document.getElementById("buttonPressedBot").style.transition =
     "all ease-in 0.2s";
-  document.getElementById("cardIconBot").style.filter = "brightness(1) invert(0)";
+  document.getElementById("cardIconBot").style.filter =
+    "brightness(1) invert(0)";
   document.getElementById("cardIconBot").style.transition = "all ease-in 0.2s";
+
+  // Button enablen
+
+  document.getElementById("gaVerderTekst").style.color = "#FFFFFF";
+  document.getElementById("Path_1611").style.fill = "#FFFFFF";
 
   // URLVERANDEREN ONDERAAN
   URLChange(answer);
@@ -65,9 +71,18 @@ function bank() {
   document.getElementById("snelste-optie-dom").style.backgroundColor =
     "#BAF2AC";
   document.getElementById("snelste-optie-dom").style.transition =
-    "#all ease-in 0.2s";
+    "all ease-in 0.2s";
   document.getElementById("cardIcon").style.filter = "brightness(1) invert(0)";
   document.getElementById("cardIcon").style.transition = "all ease-in 0.2s";
+
+  // Button enablen
+
+  document.getElementById("gaVerderTekst").style.color = "#FFFFFF";
+  document.getElementById("gaVerderTekst").style.transition =
+    "all ease-in 0.2s";
+  document.getElementById("Path_1611").style.fill = "#FFFFFF";
+  document.getElementById("Path_1611").style.transition = "all ease-in 0.2s";
+
   URLChange(answer);
 }
 
